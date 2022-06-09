@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:paddingVertical="15dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="6"
+        android:orientation="horizontal">
+        <!--Image Avatar-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="25dp">
+                <ImageView
+                    android:id="@+id/imageView_Avatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/imguser_avatar" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <!--content -->
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="12dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Singapore Lion"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Display name: "
+                    android:textColor="@color/txt_grey"
+                    android:textSize="11dp" />
+                <TextView
+                    android:id="@+id/textView_DisplayName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="My Huyen Ho"
+                    android:textColor="@color/txt_grey"
+                    android:textSize="11dp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView_PhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:fontFamily="@font/poppins_regular"
+                android:text="0769842084"
+                android:textColor="@color/txt_grey"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <!--date -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center|end">
+
+            <Button
+                android:id="@+id/button_AddFriend"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/radius_edittext"
+                android:backgroundTint="@color/primary"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Add"
+                android:textAllCaps="false"
+                android:textSize="11dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

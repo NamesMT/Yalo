@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:paddingHorizontal="15dp"
+    tools:context=".Home.Contacts.ContactsFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="10"
+        android:orientation="horizontal">
+        <!--Image Avatar-->
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="20dp">
+                <ImageView
+                    android:id="@+id/imageView_Avatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_avt_2" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="start"
+                android:layout_marginLeft="-16dp"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                app:cardBackgroundColor="@color/red"
+                app:cardCornerRadius="50dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/textView_NotificationNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_extrabold"
+                        android:text="1"
+                        android:textColor="@color/white"
+                        android:textSize="8dp"
+                        tools:ignore="MissingConstraints" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <!--content -->
+        <LinearLayout
+            android:gravity="center|start"
+            android:layout_weight="10"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView_DisplayName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Contacts"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <!--Search -->
+        <LinearLayout
+            android:layout_gravity="center"
+            android:id="@+id/layout_Search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:src="@drawable/ic_search"
+                app:tint="@color/txt_grey" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabSelectedTextColor="@color/primary"
+            app:tabIndicatorColor="@color/primary"
+            app:tabTextColor="@color/txt_grey"/>
+        
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_Pager"
+            android:layout_below="@+id/tab_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

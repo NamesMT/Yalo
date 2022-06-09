@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginRight="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!--Image Avatar-->
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="25dp">
+                <ImageView
+                    android:id="@+id/imageView_Avatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/imguser_avatar" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+               android:layout_gravity="bottom"
+                android:layout_marginLeft="-16dp"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                app:cardBackgroundColor="#2ecc71"
+                app:cardCornerRadius="50dp">
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <!--content -->
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:id="@+id/textView_DisplayName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Thy Tran"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

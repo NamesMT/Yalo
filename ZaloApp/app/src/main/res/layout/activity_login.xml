@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary"
+    android:weightSum="15"
+    android:orientation="vertical"
+    tools:context=".Onboarding.LoginActivity">
+
+    <!--Header-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="6"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zalo"
+            android:fontFamily="@font/poppins_extrabold"
+            android:textColor="@color/white"
+            android:textSize="65dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login to your account"
+            android:layout_marginTop="-10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <!--Body-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/radius_box">
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_edittext"
+            android:hint="Phone number"
+            android:paddingVertical="16dp"
+            android:paddingHorizontal="20dp"
+            android:textSize="15dp"
+            android:textColorHint="@color/txt_grey"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/radius_edittext"
+                android:hint="Password"
+                android:password="true"
+                android:paddingVertical="16dp"
+                android:paddingHorizontal="20dp"
+                android:textSize="15dp"
+                android:textColorHint="@color/txt_grey"
+                android:textColor="@color/black"
+                tools:ignore="Deprecated" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textAlignment="textEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password"
+                android:textColor="@color/txt_grey"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radius_btn"
+                android:backgroundTint="@color/bg_primary"
+                android:paddingVertical="15dp"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="OR"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/txt_grey"
+                android:textStyle="bold"
+                android:paddingVertical="10dp"
+                android:textSize="14dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radius_btn"
+                android:backgroundTint="@color/white"
+                android:paddingVertical="15dp"
+                android:text="Login with QR Code"
+                android:textColor="@color/txt_grey"
+                android:textSize="14dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--Footer-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:background="@color/bg_white"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? "
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/txt_grey"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/textView_Signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signup"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/primary"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
