@@ -79,11 +79,12 @@
         android:backgroundTint="@color/white">
 
         <EditText
+            android:id="@+id/editDisplayName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/radius_edittext"
-            android:hint="Username"
-            android:text="dhthytran"
+            android:hint="Tên hiển thị"
+            android:text=""
             android:paddingVertical="16dp"
             android:paddingHorizontal="20dp"
             android:textSize="15dp"
@@ -91,13 +92,12 @@
             android:textColor="@color/black"/>
 
         <EditText
-            android:id="@+id/editTextPhone"
+            android:id="@+id/editBio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/radius_edittext"
             android:layout_marginTop="15dp"
-            android:hint="Phone number"
-            android:text="0769842082"
+            android:hint="Tiểu sử"
             android:paddingVertical="16dp"
             android:paddingHorizontal="20dp"
             android:textSize="15dp"
@@ -105,25 +105,13 @@
             android:textColor="@color/black"/>
 
         <EditText
+            android:id="@+id/currentPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/radius_edittext"
             android:layout_marginTop="15dp"
-            android:hint="Password"
+            android:hint="Mật khẩu hiện tại"
             android:password="true"
-            android:text="123456"
-            android:paddingVertical="16dp"
-            android:paddingHorizontal="20dp"
-            android:textSize="15dp"
-            android:textColorHint="@color/txt_grey"
-            android:textColor="@color/black"/>
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/radius_edittext"
-            android:layout_marginTop="15dp"
-            android:hint="Confirm password"
             android:paddingVertical="16dp"
             android:paddingHorizontal="20dp"
             android:textSize="15dp"

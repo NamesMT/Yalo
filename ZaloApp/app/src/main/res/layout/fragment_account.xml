@@ -94,7 +94,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
-                    android:text="View profile page"
+                    android:text="Xem trang cá nhân"
                     android:textColor="@color/txt_grey"
                     android:textSize="14dp" />
             </LinearLayout>
@@ -124,7 +124,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Account and Security"
+                android:text="Tài khoản và bảo mật"
                 android:gravity="center|left"
                 android:fontFamily="@font/poppins_regular"
                 android:textColor="@color/black"
@@ -154,7 +154,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Privacy"
+                android:text="Riêng tư"
                 android:gravity="center|left"
                 android:fontFamily="@font/poppins_regular"
                 android:textColor="@color/black"
@@ -184,7 +184,38 @@
                 android:layout_marginLeft="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Waiting message"
+                android:text="Tin nhắn chờ"
+                android:gravity="center|left"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/black"
+                android:layout_weight="3"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <!--Item-->
+        <LinearLayout
+            android:id="@+id/layout_Switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="15dp"
+            android:background="@color/white"
+            android:weightSum="3"
+            android:layout_marginVertical="1dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_transform"
+                android:tint="@color/primary"
+                tools:ignore="UseAppTint" />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chuyển tài khoản"
                 android:gravity="center|left"
                 android:fontFamily="@font/poppins_regular"
                 android:textColor="@color/black"
@@ -208,14 +239,14 @@
                 android:layout_height="20dp"
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_transform"
+                android:src="@drawable/ic_logout"
                 android:tint="@color/primary"
                 tools:ignore="UseAppTint" />
             <TextView
                 android:layout_marginLeft="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Account transfer"
+                android:text="Đăng xuất"
                 android:gravity="center|left"
                 android:fontFamily="@font/poppins_regular"
                 android:textColor="@color/black"

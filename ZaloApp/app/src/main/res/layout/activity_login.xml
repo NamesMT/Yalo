@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Zalo"
+            android:text="Yalo"
             android:fontFamily="@font/poppins_extrabold"
             android:textColor="@color/white"
             android:textSize="65dp"/>
@@ -73,11 +73,12 @@
                 android:textColor="@color/black"
                 tools:ignore="Deprecated" />
             <TextView
+                android:id="@+id/forgotPassword"
                 android:layout_marginTop="10dp"
                 android:textAlignment="textEnd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Forgot Password"
+                android:text="Quên mật khẩu"
                 android:textColor="@color/txt_grey"
                 android:textSize="14dp" />
 
@@ -88,6 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <Button
                 android:id="@+id/button_login"
                 android:layout_width="match_parent"
@@ -99,27 +101,6 @@
                 android:textColor="@color/white"
                 android:textSize="14dp"
                 android:textStyle="bold"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:gravity="center"
-                android:layout_height="wrap_content"
-                android:text="OR"
-                android:fontFamily="@font/poppins_regular"
-                android:textColor="@color/txt_grey"
-                android:textStyle="bold"
-                android:paddingVertical="10dp"
-                android:textSize="14dp" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/radius_btn"
-                android:backgroundTint="@color/white"
-                android:paddingVertical="15dp"
-                android:text="Login with QR Code"
-                android:textColor="@color/txt_grey"
-                android:textSize="14dp"/>
 
         </LinearLayout>
 

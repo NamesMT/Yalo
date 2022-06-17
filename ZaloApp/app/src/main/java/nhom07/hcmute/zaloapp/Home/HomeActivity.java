@@ -60,9 +60,9 @@ public class HomeActivity extends AppCompatActivity {
         bottomNavigation.setOnClickMenuListener(new MeowBottomNavigation.ClickListener() {
             @Override
             public void onClickItem(MeowBottomNavigation.Model item) {
-                Toast.makeText(getApplicationContext()
-                        , "You Clicked " + item.getId()
-                        , Toast.LENGTH_SHORT).show();
+                // Toast.makeText(getApplicationContext()
+                //         , "You Clicked " + item.getId()
+                //         , Toast.LENGTH_SHORT).show();
             }
         });
 
