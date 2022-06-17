@@ -36,6 +36,35 @@
         <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Cuoi ki/Final Project/ZaloApp/app/src/main/res/layout/item_user.xml" value="0.36666666666666664" />
         <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Cuoi ki/Final Project/ZaloApp/app/src/main/res/layout/item_user_search.xml" value="0.33" />
         <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Cuoi ki/Final Project/ZaloApp/app/src/main/res/menu/main_menu.xml" value="0.23148148148148148" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/drawable/ic_add.xml" value="0.1235" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/drawable/ic_arrow_back.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/drawable/ic_back.xml" value="0.1235" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/drawable/ic_contact.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.236" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/drawable/ic_lock.xml" value="0.1235" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/drawable/ic_logout.xml" value="0.1235" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/drawable/ic_message.xml" value="0.1235" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/drawable/ic_security.xml" value="0.1235" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/drawable/ic_transform.xml" value="0.1235" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/drawable/radius_btn.xml" value="0.2435" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/activity_chat.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/activity_main.xml" value="0.21622846781504987" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/activity_profile.xml" value="0.21622846781504987" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/activity_search.xml" value="0.21622846781504987" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/activity_signup.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/chat_adapter_layout.xml" value="0.21622846781504987" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/fragment_account.xml" value="0.21622846781504987" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/fragment_contacts.xml" value="0.21622846781504987" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/fragment_friend.xml" value="0.21622846781504987" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/fragment_message.xml" value="0.21622846781504987" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/fragment_phone_book.xml" value="0.21622846781504987" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/item_chat.xml" value="0.21622846781504987" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/item_friend_user.xml" value="0.21622846781504987" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/item_phone_book_user.xml" value="0.21622846781504987" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/item_user.xml" value="0.21622846781504987" />
+        <entry key="..\:/Users/Admin/Desktop/ZaloApp/app/src/main/res/layout/item_user_search.xml" value="0.21622846781504987" />
       </map>
     </option>
   </component>
