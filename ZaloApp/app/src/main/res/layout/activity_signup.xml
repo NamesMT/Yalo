@@ -99,21 +99,42 @@
 
 
         <LinearLayout
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <Button
+                android:id="@+id/btnGenerateOTP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="Generate OTP"
+                android:textSize="14dp"/>
+            <EditText
+                android:id="@+id/editText_OTP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="OTP"
+                android:inputType="number" />
+
+            <ProgressBar
+                android:id="@+id/bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
+
+            <Button
                 android:id="@+id/button_signup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
                 android:background="@drawable/radius_btn"
                 android:backgroundTint="@color/bg_primary"
                 android:paddingVertical="15dp"
                 android:text="Signup"
                 android:textColor="@color/white"
-                android:textSize="14dp"
-                android:textStyle="bold"/>
+                android:textSize="16dp"
+                android:textStyle="bold" />
         </LinearLayout>
 
 
